@@ -14,6 +14,7 @@ import { QuestionProvider } from './contexts/QuestionContext';
 import { detectWakeWords } from './utils/speechUtils';
 
 // TypeScript interfaces for Speech Recognition API
+//moves types to types.ts
 interface SpeechRecognitionResult {
   [index: number]: SpeechRecognitionAlternative;
   length: number;
